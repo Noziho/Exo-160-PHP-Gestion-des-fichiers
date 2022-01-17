@@ -46,11 +46,3 @@ else {
  * Attention, il y a un piège avec les pointeurs, et une manière très simple de procéder... réfléchissez...
  */
 // TODO Votre code ici si vous faites le bonus.
-$file = fopen('texte.txt', 'rb');
-if (file_exists('texte.txt')) {
-    while($letters = fgetc($file)) {
-        if ($letters === 'a') {
-            echo "test ";
-        }
-    }
-}
